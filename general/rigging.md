@@ -74,5 +74,4 @@ A well kept secret, studiomdl simply **discards any normalized weights below a v
 -----
  
 
- 
 # Identification
