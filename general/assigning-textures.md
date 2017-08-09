@@ -7,7 +7,7 @@ Author(s): Taco
 
 ### Table of Contents
 
-### [3DS Max](assigning-textures.md#3ds-max-1)
+[3DS Max](assigning-textures.md#3ds-max)
 1. [Importing an .obj with a proper .mtl](assigning-textures.md#importing-an-obj-with-a-proper-mtl)
 2. [Redirecting existing texture paths](assigning-textures.md#redirecting-existing-texture-paths)
 3. [Assigning textures manually](assigning-textures.md#assigning-textures-manually)
@@ -16,10 +16,10 @@ Author(s): Taco
 [Blender](assigning-textures.md#blender)
 1. [Enabling Textured Solid and Backface Culling](assigning-textures.md#enabling-textured-solid-and-backface-culling)
 2. [Importing files with embedded texture paths](assigning-textures.md#importing-files-with-embedded-texture-paths)
-3. [Redirecting existing texture paths](assigning-textures.md#redirecting-existing-texture-paths-1)
+3. [Redirecting existing texture paths](assigning-textures.md#locating-missing-textures)
 4. [Assigning textures directly to the faces](assigning-textures.md#assigning-textures-directly-to-the-faces)
-5. [Enabling transparency in the viewport](assigning-textures.md#enabling-transparency-in-the-viewport-1)
-6. [Enabling texture clamping in the viewport](assigning-textures.md#enabling-texture-clamping-in-the-viewport)
+5. [Enabling transparency in the viewport](assigning-textures.md#enabling-transparency-in-the-3d-viewport)
+6. [Enabling texture clamping in the viewport](assigning-textures.md#enabling-texture-clamping-in-the-3d-viewport)
 -----
 
 
@@ -67,7 +67,7 @@ If your file is an .obj with a .mtl in the same location, your program should au
 <img src="img/max_materials.png">
 </p>
 
-### Enabling transparency in the viewport:
+### Enabling transparency in the Viewport:
 
 1. At the top left of your active viewport, **click the third option**, your shading settings
 2. In the window that appears, **hover over Materials**, then checkmark **Enable Transparency**
@@ -94,7 +94,7 @@ Blender is very good about reading texture paths correctly from various model fo
 
 Importing an FBX with texture paths will behave differently. The texture paths will be assigned to the materials, but the model's faces won't actually have the textures applied. If you switch to Material shading however, the textures will show but the model will turn black due to a lack of lighting. Create a Hemi light at the center of the grid to illuminate the scene and see the textures.
 
-### Redirecting existing texture paths:
+### Locating missing textures:
 
 If you import a model or load a scene that is supposed to have textures applied, but all you see is a purple error texture on the mesh, this means that Blender knows that textures are supposed to be there, but simply can't find them. If this happens, you can easily fix the problem by going to **File > External Data > Find Missing Files** and navigating to the directory where the texture files reside. The image names only need to match the names of the textures Blender wants to use.
 
@@ -119,8 +119,7 @@ While most Blender users will insist on assigning textures via materials and lig
 
 You do not need to keep reopening the same image over and over for each material, simply highlight the faces and **click the icon to the left of +New** in the **UV/Image Editor** to select an image that has already been added to the scene. **This can also be done with material names.**
 
-### Enabling transparency in the viewport:
-
+### Enabling transparency in the 3D Viewport:
 
 1. Select the material which uses transparency, scroll down in the material properties until you find the **Transparency** tab
 2. Checkmark the box in front of Transparency, **make sure Z Transparency is the mode being used**
@@ -131,7 +130,7 @@ You do not need to keep reopening the same image over and over for each material
 
 <img src="img/blender_clamping.png" align=right />
 
-### Enabling texture clamping in the viewport:
+### Enabling texture clamping in the 3D Viewport:
 
 1. With the texture open in the **UV/Image Editor, press N** to open a column with additional properties.
 2. Find **Game Properties** in the column, **expand it** and you will see check boxes for **Clamp X and Clamp Y**
