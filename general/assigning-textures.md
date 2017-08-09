@@ -5,6 +5,13 @@ Author(s): Taco
 # Assigning textures in your 3D Package
 -----
 
+When you import your model, usually you will not immediately see the textures assigned.
+Most often you will have to assign them manually to the model.
+
+If your file is an .obj with a .mtl in the same location, your program should automatically assign the textures assuming the texture files are where the .mtl expects them to be. Several other formats also have the ability to embed texture paths, FBX being one of them.
+
+-----
+
 ### Table of Contents
 
 [3DS Max](assigning-textures.md#3ds-max)
@@ -20,13 +27,6 @@ Author(s): Taco
 4. [Assigning textures directly to the faces](assigning-textures.md#assigning-textures-directly-to-the-faces)
 5. [Enabling transparency in the 3D Viewport](assigning-textures.md#enabling-transparency-in-the-3d-viewport)
 6. [Enabling texture clamping in the 3D Viewport](assigning-textures.md#enabling-texture-clamping-in-the-3d-viewport)
------
-
-When you import your model, usually you will not immediately see the textures assigned.
-Most often you will have to assign them manually to the model.
-
-If your file is an .obj with a .mtl in the same location, your program should automatically assign the textures assuming the texture files are where the .mtl expects them to be. Several other formats also have the ability to embed texture paths, FBX being one of them.
-
 -----
 
 ## 3DS Max
