@@ -1,5 +1,5 @@
 ```
-Credit: Kuroyasviel
+Author(s): Kuroyasviel
 ```
 
 ## Colored Specular
