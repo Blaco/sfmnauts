@@ -150,7 +150,7 @@ You do not need to keep reopening the same image over and over for each material
 
 ### Enabling texture clamping in the 3D Viewport:
 
-1. With the texture open in the **UV/Image Editor, press N** to open a column with additional properties.
+1. With the texture open in the **UV/Image Editor, press N** to open a column with additional properties
 2. Find **Game Properties** in the column, **expand it** and you will see check boxes for **Clamp X and Clamp Y**
 3. Your texture will be clamped according to how you set these, _**these settings apply to everything using that texture file**_, it is not a per-material setting
  
