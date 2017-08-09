@@ -29,7 +29,7 @@ The rigging data loss could be negligable, or it could be completely destructive
 -----
 
 # The Causes
-
+ 
 
 ### Failure To Normalize Weight Values
 
@@ -75,3 +75,6 @@ A well kept secret, studiomdl simply **discards any normalized weights below a v
  
 
 # Identification
+ 
+
+### Ree
