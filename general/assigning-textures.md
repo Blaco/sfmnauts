@@ -21,8 +21,9 @@ Author(s): Taco
 5. [Enabling transparency in the 3D Viewport](assigning-textures.md#enabling-transparency-in-the-3d-viewport)
 6. [Enabling texture clamping in the 3D Viewport](assigning-textures.md#enabling-texture-clamping-in-the-3d-viewport)
 -----
+ 
 
-
+ 
 When you import your model, usually you will not immediately see the textures assigned.
 Most often you will have to assign them manually to the model.
 
