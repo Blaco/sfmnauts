@@ -133,6 +133,7 @@ While most Blender users will insist on assigning textures via materials and lig
 
 You do not need to keep reopening the same image over and over for each material, simply highlight the faces and **click the icon to the left of +New** in the **UV/Image Editor** to select an image that has already been added to the scene. **This can also be done with material names.**
  
+
  
 ### Enabling transparency in the 3D Viewport:
 
@@ -144,9 +145,7 @@ You do not need to keep reopening the same image over and over for each material
 </p>
 
 <img src="img/blender_clamping.png" align=right />
- 
 
- 
 ### Enabling texture clamping in the 3D Viewport:
 
 1. With the texture open in the **UV/Image Editor, press N** to open a column with additional properties.
