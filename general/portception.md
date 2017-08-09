@@ -1,3 +1,7 @@
+```
+Author(s): Taco
+```
+
 ### DO NOT PORT A PORT.
 
 It may seem tempting to use a preexisting port as the basis for your project. This is a bad idea for many reasons, with the most obvious being that some authors (especially from obscure platforms like MMD/XNALARA) are very protective of their own work and will be quick to go after you and demand credit or removal.
