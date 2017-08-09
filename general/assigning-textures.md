@@ -147,7 +147,6 @@ You do not need to keep reopening the same image over and over for each material
 
  
 <img src="img/blender_clamping.png" align=right />
-
 ### Enabling texture clamping in the 3D Viewport:
 
 1. With the texture open in the **UV/Image Editor, press N** to open a column with additional properties.
