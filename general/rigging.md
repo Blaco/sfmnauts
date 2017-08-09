@@ -22,6 +22,10 @@ The rigging data loss could be negligable, or it could be completely destructive
 1. [Failure To Normalize Weight Values](rigging.md#failure-to-normalize-weight-values)
 2. [Bone Weights Per Vertex Limit](rigging.md#bone-weights-per-vertex-limit)
 3. [Culling of Normalized Weights With Values Under .05](rigging.md#culling-of-normalized-weights-with-values-under-05)
+
+
+[Identification](rigging.md#identification)
+1. [Reee](rigging.md#ree)
 -----
 
 # The Causes
@@ -61,6 +65,14 @@ You can export **SMD files** with as many vertex weights as you'd like, but if y
 - SMD compiling without any mention of weight culling is the primary reason Source ports are notorious for bad rigging
 - In Source 2, the limit is raised to 4, so this problem goes away if by some miracle SFM is ever ported over properly
  
+
+ 
 ### Culling of Normalized Weights With Values Under .05
 
 A well kept secret, studiomdl simply **discards any normalized weights below a value of .05** and collapses them back into another weight group. This has a huge impact on fine weighting, especially on high poly models where very low weight values are often utilized to keep all those vertices smoothly deforming. Many models you import will have weights below .05, even older games. It may not seem like a big deal, _but it is_. Depending on how much your model uses low value weights, **this issue all by itself can be severe enough to ruin deforms in very obvious ways, I assure you.** A few dropped weights here and there usually can be ignored, but if you have entire sets of edge loops using low value weights, **there is real potential for serious damage** to pose deforms on your compiled model.
+
+-----
+ 
+
+ 
+# Identification
