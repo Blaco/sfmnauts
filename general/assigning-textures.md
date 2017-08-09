@@ -143,7 +143,9 @@ You do not need to keep reopening the same image over and over for each material
 <p align="center"> 
 <img src="img/blender_transparency.png">
 </p>
+ 
 
+ 
 <img src="img/blender_clamping.png" align=right />
 
 ### Enabling texture clamping in the 3D Viewport:
@@ -152,8 +154,9 @@ You do not need to keep reopening the same image over and over for each material
 2. Find **Game Properties** in the column, **expand it** and you will see check boxes for **Clamp X and Clamp Y**
 3. Your texture will be clamped according to how you set these, _**these settings apply to everything using that texture file**_, it is not a per-material setting
  
- 
-  
+
+ 
+ 
 <p align="center"> 
 <img src="img/blender_clamping.gif">
 </p>
