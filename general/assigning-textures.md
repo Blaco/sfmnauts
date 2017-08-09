@@ -7,7 +7,7 @@ Author(s): Taco
 
 ### Table of Contents
 
-1. [3DS Max](assigning-textures.md#3ds-max)
+[3DS Max](assigning-textures.md#3ds-max)
 1. [Importing an .obj with a proper .mtl](assigning-textures.md#importing-an-obj-with-a-proper-mtl)
 2. [Redirecting existing texture paths](assigning-textures.md#redirecting-existing-texture-paths-in-3ds-max)
 3. [Assigning textures manually](assigning-textures.md#assigning-textures-manually)
