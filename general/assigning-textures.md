@@ -145,7 +145,6 @@ You do not need to keep reopening the same image over and over for each material
 </p>
  
 
- 
 <img src="img/blender_clamping.png" align=right />
 
 ### Enabling texture clamping in the 3D Viewport:
