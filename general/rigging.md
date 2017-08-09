@@ -1,3 +1,7 @@
+```
+Author(s): Taco
+```
+
 # Understanding Weighting Limitations in the Source Engine
 -----
 
@@ -14,7 +18,7 @@ The rigging data loss could be negligable, or it could be completely destructive
 
 ### Table of Contents
 
-### [The Causes](rigging.md#the-causes-1)
+[The Causes](rigging.md#the-causes)
 1. [Failure To Normalize Weight Values](rigging.md#failure-to-normalize-weight-values)
 2. [Bone Weights Per Vertex Limit](rigging.md#bone-weights-per-vertex-limit)
 3. [Culling of Normalized Weights With Values Under .05](rigging.md#culling-of-normalized-weights-with-values-under-05)
