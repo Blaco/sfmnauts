@@ -27,7 +27,9 @@ When you import your model, usually you will not immediately see the textures as
 Most often you will have to assign them manually to the model.
 
 If your file is an .obj with a .mtl in the same location, your program should automatically assign the textures assuming the texture files are where the .mtl expects them to be. Several other formats also have the ability to embed texture paths, FBX being one of them.
+ 
 
+ 
 ## 3DS Max
 
 ### Importing an .obj with a proper .mtl:
