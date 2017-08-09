@@ -7,13 +7,13 @@ Author(s): Taco
 
 ### Table of Contents
 
-### [3DS Max](assigning-textures.md#3ds-max)
+### [3DS Max:](assigning-textures.md#3ds-max)
 1. [Importing an .obj with a proper .mtl](assigning-textures.md#importing-an-obj-with-a-proper-mtl)
 2. [Redirecting existing texture paths](assigning-textures.md#redirecting-existing-texture-paths-in-3ds-max)
 3. [Assigning textures manually](assigning-textures.md#assigning-textures-manually)
 4. [Enabling transparency in the viewport](assigning-textures.md#enabling-transparency-in-the-viewport-in-3ds-max)
 
-### [Blender](assigning-textures.md#blender)
+### [Blender:](assigning-textures.md#blender)
 1. [Enabling Textured Solid and Backface Culling](assigning-textures.md#enabling-textured-solid-and-backface-culling)
 2. [Importing files with embedded texture paths](assigning-textures.md#importing-files-with-embedded-texture-paths)
 3. [Redirecting existing texture paths](assigning-textures.md#redirecting-existing-texture-paths-in-blender)
@@ -28,7 +28,7 @@ Most often you will have to assign them manually to the model.
 
 If your file is an .obj with a .mtl in the same location, your program should automatically assign the textures assuming the texture files are where the .mtl expects them to be. Several other formats also have the ability to embed texture paths, FBX being one of them.
 
-## 3DS Max:
+## 3DS Max
 
 ### Importing an .obj with a proper .mtl:
 
@@ -76,7 +76,7 @@ If your file is an .obj with a .mtl in the same location, your program should au
 <img src="img/max_transparency.png">
 </p>
 
-## Blender:
+## Blender
 
 ### Enabling Textured Solid and Backface Culling:
 
