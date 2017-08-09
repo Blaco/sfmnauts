@@ -16,7 +16,7 @@ Author(s): Taco
 [Blender](assigning-textures.md#blender)
 1. [Enabling Textured Solid and Backface Culling](assigning-textures.md#enabling-textured-solid-and-backface-culling)
 2. [Importing files with embedded texture paths](assigning-textures.md#importing-files-with-embedded-texture-paths)
-3. [Locating Missing Textures](assigning-textures.md#locating-missing-textures)
+3. [Locating missing textures](assigning-textures.md#locating-missing-textures)
 4. [Assigning textures directly to the faces](assigning-textures.md#assigning-textures-directly-to-the-faces)
 5. [Enabling transparency in the 3D Viewport](assigning-textures.md#enabling-transparency-in-the-3d-viewport)
 6. [Enabling texture clamping in the 3D Viewport](assigning-textures.md#enabling-texture-clamping-in-the-3d-viewport)
