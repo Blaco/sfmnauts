@@ -14,13 +14,13 @@ If your file is an .obj with a .mtl in the same location, your program should au
 
 ### Table of Contents
 
-[3DS Max](assigning-textures.md#3ds-max)
+[**3DS Max**](assigning-textures.md#3ds-max)
 1. [Importing an .obj with a proper .mtl](assigning-textures.md#importing-an-obj-with-a-proper-mtl)
 2. [Redirecting existing texture paths](assigning-textures.md#redirecting-existing-texture-paths)
 3. [Assigning textures manually](assigning-textures.md#assigning-textures-manually)
 4. [Enabling transparency in the Viewport](assigning-textures.md#enabling-transparency-in-the-viewport)
 
-[Blender](assigning-textures.md#blender)
+[**Blender**](assigning-textures.md#blender)
 1. [Enabling Textured Solid and Backface Culling](assigning-textures.md#enabling-textured-solid-and-backface-culling)
 2. [Importing files with embedded texture paths](assigning-textures.md#importing-files-with-embedded-texture-paths)
 3. [Locating missing textures](assigning-textures.md#locating-missing-textures)
