@@ -39,7 +39,9 @@ If your file is an .obj with a .mtl in the same location, your program should au
 <p align="center"> 
 <img src="img/max_obj_import.png">
 </p>
+ 
 
+ 
 ### Redirecting existing texture paths:
 
 1. After importing your model, **save the scene**
@@ -51,7 +53,9 @@ If your file is an .obj with a .mtl in the same location, your program should au
 <p align="center"> 
 <img src="img/max_pathfix.png">
 </p>
+ 
 
+ 
 ### Assigning textures manually:
 
 1. Open the **Slate Material Editor (M)** and scroll down until you find **Scene Materials**
@@ -66,7 +70,9 @@ If your file is an .obj with a .mtl in the same location, your program should au
 <p align="center"> 
 <img src="img/max_materials.png">
 </p>
+ 
 
+ 
 ### Enabling transparency in the Viewport:
 
 1. At the top left of your active viewport, **click the third option**, your shading settings
@@ -75,7 +81,9 @@ If your file is an .obj with a .mtl in the same location, your program should au
 <p align="center"> 
 <img src="img/max_transparency.png">
 </p>
+ 
 
+ 
 ## Blender
 
 ### Enabling Textured Solid and Backface Culling:
@@ -87,17 +95,23 @@ Blender's viewport by default does not show textures in Solid shading mode, to e
 Look towards the bottom, find the **Shading** tab, and below it checkmark **Textured Solid** and **Backface Culling**. The column can now be closed if you choose.
 
 The main advantage of this is that you will now be able to see textures under normal shading conditions instead of fullbright in Texture mode. Turning on Backface Culling is also important so you can identify any issues regarding duplicated or missing planes.
+ 
 
+ 
 ### Importing files with embedded texture paths:
 
 Blender is very good about reading texture paths correctly from various model formats that support it. Importing an .obj with a valid .mtl attached should automatically assign the textures to the materials, and immediately appear in the viewport.
 
 Importing an FBX with texture paths will behave differently. The texture paths will be assigned to the materials, but the model's faces won't actually have the textures applied. If you switch to Material shading however, the textures will show but the model will turn black due to a lack of lighting. Create a Hemi light at the center of the grid to illuminate the scene and see the textures.
+ 
 
+ 
 ### Locating missing textures:
 
 If you import a model or load a scene that is supposed to have textures applied, but all you see is a purple error texture on the mesh, this means that Blender knows that textures are supposed to be there, but simply can't find them. If this happens, you can easily fix the problem by going to **File > External Data > Find Missing Files** and navigating to the directory where the texture files reside. The image names only need to match the names of the textures Blender wants to use.
+ 
 
+ 
 ### Assigning textures directly to the faces:
 
 While most Blender users will insist on assigning textures via materials and lighting a scene, it is actually completely unnecessary, the porting process has no need for Blender's material system. You can simply use the materials to highlight the corresponding faces and open an image file directly onto those faces, bypassing the material system altogether.
@@ -118,7 +132,8 @@ While most Blender users will insist on assigning textures via materials and lig
 </p>
 
 You do not need to keep reopening the same image over and over for each material, simply highlight the faces and **click the icon to the left of +New** in the **UV/Image Editor** to select an image that has already been added to the scene. **This can also be done with material names.**
-
+ 
+ 
 ### Enabling transparency in the 3D Viewport:
 
 1. Select the material which uses transparency, scroll down in the material properties until you find the **Transparency** tab
@@ -129,7 +144,9 @@ You do not need to keep reopening the same image over and over for each material
 </p>
 
 <img src="img/blender_clamping.png" align=right />
+ 
 
+ 
 ### Enabling texture clamping in the 3D Viewport:
 
 1. With the texture open in the **UV/Image Editor, press N** to open a column with additional properties.
